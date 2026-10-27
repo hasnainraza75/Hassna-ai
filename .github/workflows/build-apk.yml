@@ -107,7 +107,7 @@ jobs:
           fi
           echo "Prepared release asset: $TEMP_DIR/app-debug.apk"      
 #         echo "asset_path=$TEMP_DIR/app-debug.apk" >> "$GITHUB_OUTPUT" 
-         #
+         
       - name: Publish APK to GitHub Releases
         id: publish_release
         continue-on-error: true
