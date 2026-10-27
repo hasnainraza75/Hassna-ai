@@ -136,15 +136,14 @@ jobs:
 
           NOTES="### LONA AI — Automated Debug APK Build
 
-
-> **Notice:** This is an automatically generated debug APK signed with a temporary debug keystore intended for testing and evaluation. It is not a production release."
-
-          echo "Creating release $TAG..."
-          gh release create "$TAG" "$ASSET" \
-            --title "$TITLE" \
-            --notes "$NOTES" \
-            --target "${{ github.sha }}" \
-            --latest
+#> **Notice:** This is an automatically generated debug APK signed with a temporary debug keystore intended for testing and evaluation. It is not a production release."
+#
+#          echo "Creating release $TAG..."
+#          gh release create "$TAG" "$ASSET" \
+#            --title "$TITLE" \
+#            --notes "$NOTES" \
+#            --target "${{ github.sha }}" \
+#            --latest
 
           echo "tag=$TAG" >> "$GITHUB_OUTPUT"
 
