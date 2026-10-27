@@ -136,11 +136,6 @@ jobs:
 
           NOTES="### LONA AI — Automated Debug APK Build
 
-- **Build System:** GitHub Actions
-- **Run Number:** ${{ github.run_number }}
-- **Run Attempt:** ${{ github.run_attempt }}
-- **Source Commit:** ${{ github.sha }}
-- **APK Filename:** app-debug.apk
 
 > **Notice:** This is an automatically generated debug APK signed with a temporary debug keystore intended for testing and evaluation. It is not a production release."
 
